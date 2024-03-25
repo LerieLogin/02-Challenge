@@ -4,6 +4,9 @@ body {
     transition: background-color 700ms ease
 }
 
+button {
+    margin: 10px;
+}
 
 section {
     margin: 10px;
