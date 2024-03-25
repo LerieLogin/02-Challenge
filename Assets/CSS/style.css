@@ -9,7 +9,17 @@ header {
     
 }
 
+a {
+    
+    text-decoration: none;
 
+}
+
+.dark a {
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+}
 
 main {
     display: flex;
@@ -48,3 +58,5 @@ main {
     max-height: fit-content;
     max-width: fit-content;
 }
+
+
