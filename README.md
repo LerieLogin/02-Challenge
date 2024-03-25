@@ -24,4 +24,5 @@ NA
 
 # Link
     
-[website link] (https://lerielogin.github.io/Larrys-API-challenge/blog.html)
+Website link
+- https://lerielogin.github.io/Larrys-API-challenge/blog.html
