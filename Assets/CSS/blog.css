@@ -16,12 +16,23 @@ section {
 
 
 header {
-    display: flex;
-    justify-content: right;
+    /* display: flex;
+    justify-content: right; */
+    border: solid black 3px;
+    border-radius: 20px 20px;
     background-color: rgb(213, 238, 248);
     padding: 50px;
     transition: background-color 700ms ease
 }
+
+button {
+    
+    background-image: linear-gradient(rgb(78, 202, 243), white);
+    width: 100px;
+    font: inherit;
+    transition: background-image 600ms ease;
+}
+
 
 h2 {
     border-bottom: solid black 2px;
@@ -40,6 +51,14 @@ p {
     background-color: rgb(70, 67, 67);
     transition: background-color 700ms ease
 }
+
+.dark button {
+    background-image: linear-gradient(rgb(62, 63, 63), white);
+    width: 100px;
+    font: inherit;
+    transition: background-image 600ms ease; /* ????? */
+}
+
 .dark header {
     background-color: gray;
     transition: background-color 700ms ease
@@ -55,4 +74,44 @@ p {
 
 section:hover {
     border-color: lightskyblue;
+    
 }
+
+.title, .username {
+    text-transform: capitalize;
+}
+
+/* @media screen and (max-width: 780px) {
+    
+}
+    section {
+        
+        max-width: 200px;
+        
+            .content {
+                display: none;
+                background-color: rgb(221, 221, 221);
+                transition: background-color 600ms ease;
+                
+            
+            }
+    }
+    section:hover {
+        
+        max-width: 500px;
+        transition: max-width 600ms ease;
+            .content {
+                display: block;
+                background-color: black;
+                
+                transition-delay: 1s;
+                transition: background-color 600ms ease;
+               
+            }
+
+            
+} */
+
+
+
+
