@@ -19,8 +19,8 @@ NA
 
 # Pic
 
-![image of website](assets/blog.PNG)
-![image of website](assets/Blog1.PNG)
+![image of website](Assets/blog.PNG)
+![image of website](Assets/Blog1.PNG)
 
 # Link
     
